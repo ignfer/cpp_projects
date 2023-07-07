@@ -1,0 +1,8 @@
+El programa reconoce como vacio un espacio en blanco, es decir
+createTable( ) es preferible antes que createTable() ya que es como fue diseñado
+y es como logra funcionar mas consistentemente, esto se aplica a comandos de todo tipo ya sean de insercion de columnas o tuplas, etc.
+
+otro ejemplo de esto es a la hora de realizar una seleccion
+
+select(personas,,vista1) dara error, se pide entonces utilizar el siguiente formato
+select(personas, ,vista1) para seleccionar todo
